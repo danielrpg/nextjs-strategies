@@ -12,6 +12,13 @@
   align-items: center;
 }
 
+.main>nav>a {
+  color: #fff !important;
+  margin-left: 100px;
+  font-size: xx-large;
+  font-weight: bold;
+}
+
 .footer {
   display: flex;
   flex: 1;
@@ -116,13 +123,16 @@
 }
 
 @media (prefers-color-scheme: dark) {
+
   .card,
   .footer {
     border-color: #222;
   }
+
   .code {
     background: #111;
   }
+
   .logo img {
     filter: invert(1);
   }
